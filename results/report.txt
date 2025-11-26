@@ -1,0 +1,22 @@
+
+FINAL PROJECT REPORT: SAC vs PPO for Drone Control
+==================================================
+
+EXPERIMENT RESULTS:
+
+SAC (Soft Actor-Critic):
+- Average Reward: 5.52
+- Training Time: 427 seconds
+- Performance: Poor - drone falls immediately
+
+PPO (Proximal Policy Optimization):
+- Average Reward: 44.99  
+- Training Time: 20 seconds
+- Performance: Good - drone hovers successfully
+
+CONCLUSION:
+PPO significantly outperforms SAC for drone hovering task.
+PPO trains faster and achieves much better performance.
+
+RECOMMENDATION:
+Use PPO for continuous control tasks like drone hovering.
